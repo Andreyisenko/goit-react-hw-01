@@ -1,0 +1,53 @@
+.wraperAvatar {
+  padding-top: 20px;
+  width: 300px;
+  height: auto;
+  border: solid 2px black;
+  border-radius: 20px;
+ 
+  background-color: rgb(229, 232, 237);
+}
+.imag {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(49, 52, 52);
+  border-radius: 50%;
+}
+.wraperAvatarNext {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+.nameProfile {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}
+.parProfile {
+  color: rgb(178, 177, 176);
+}
+.listProfile {
+    border-top: solid 2px rgb(99, 98, 98);
+  margin-top: 20px;
+  display: flex;
+  background-color: rgb(154, 158, 162);
+  justify-content: space-around;
+  gap: 10px;
+  color: black;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.listItemProfile {
+    /* border-right: solid 2px rgb(99, 98, 98); */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.listItemSpnProfile {
+  font-weight: 700;
+  color: black;
+  
+}
