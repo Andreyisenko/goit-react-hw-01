@@ -1,0 +1,38 @@
+.listFriendlist {
+   margin: 40px auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    
+}
+
+
+.listItemFriendlist {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.wraperFriendListItem {
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.nameFriendListItem {
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.variant {
+    color: red;
+}
+.alert {
+    color: green;
+}
+
