@@ -1,3 +1,4 @@
+import FriendList from './components/FriendList/FriendList';
 import Profiler from './components/Profile/Profile';
 import userData from './components/userData.json';
 function App() {
@@ -12,7 +13,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendList friends=""/>
     </div>
+    
   );
 }
 
