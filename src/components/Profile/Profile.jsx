@@ -1,4 +1,4 @@
-import css from './Profile.module.css'
+import css from './Profile.module.css';
 const Profile = ({
   name,
   tag,
@@ -17,7 +17,7 @@ const Profile = ({
 
       <ul className={css.listProfile}>
         <li className={css.listItemProfile}>
-          <span>Followers</span> 
+          <span>Followers</span>
 
           <span className={css.listItemSpnProfile}>{followers}</span>
         </li>
@@ -25,9 +25,9 @@ const Profile = ({
           <span>Views</span>
 
           <span className={css.listItemSpnProfile}>{views}</span>
-        </li >
+        </li>
         <li className={css.listItemProfile}>
-          <span>Likes</span>    
+          <span>Likes</span>
 
           <span className={css.listItemSpnProfile}>{likes}</span>
         </li>

@@ -1,0 +1,27 @@
+.tableTransactionHistory {
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+}
+.tableTransactionHistoryThead {
+  background-color: rgb(69, 62, 62);
+  color: antiquewhite;
+}
+.tableTransactionHistoryRow {
+  background-color: rgb(47, 161, 5);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.tableTransactionHistoryRow:nth-child(2n) {
+  background-color: rgb(146, 171, 16);
+}
+
+.tableTransactionHistoryData {
+}
+.type {
+  background-color: brown;
+  margin-left: 10px;
+}

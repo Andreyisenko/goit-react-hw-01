@@ -5,9 +5,9 @@
   height: auto;
   border: solid 2px black;
   border-radius: 20px;
- margin-left: auto;
- margin-right: auto;
-  background-color: rgb(229, 232, 237);
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(89, 44, 127);
 }
 .imag {
   width: 100px;
@@ -24,32 +24,29 @@
 .nameProfile {
   font-size: 20px;
   font-weight: 700;
-  color: black;
+  color: rgb(209, 195, 195);
 }
 .parProfile {
-  color: rgb(178, 177, 176);
+  color: rgb(217, 134, 51);
 }
 .listProfile {
-    border-top: solid 2px rgb(99, 98, 98);
+  border-top: solid 2px rgb(99, 98, 98);
   margin-top: 20px;
   display: flex;
-  background-color: rgb(154, 158, 162);
+  background-color: rgb(51, 104, 157);
   justify-content: space-around;
   gap: 10px;
-  color: black;
+  color: rgb(209, 195, 195);
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 .listItemProfile {
-    /* border-right: solid 2px rgb(99, 98, 98); */
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 .listItemSpnProfile {
   font-weight: 700;
-  color: black;
-  
+  color: rgb(209, 195, 195);
 }

@@ -1,12 +1,15 @@
 import FriendList from './components/FriendList/FriendList';
 import Profiler from './components/Profile/Profile';
-import userData from './userData.json'
-import friends from './friends.json'
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import userData from './userData.json';
+import friends from './friends.json';
+import transactions from './transactions.json';
 function App() {
-  // console.log(userData.username);
+  // console.log(transactions[1].id);
+  // console.log(transactions[0]);
 
   return (
-    <div className='wrapApp'>
+    <div className="wrapApp">
       <Profiler
         name={userData.username}
         tag={userData.tag}
@@ -14,9 +17,9 @@ function App() {
         image={userData.avatar}
         stats={userData.stats}
       />
-      <FriendList friends={friends}/>
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
-    
   );
 }
 
